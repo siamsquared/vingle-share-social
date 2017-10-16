@@ -1,5 +1,5 @@
 {
-    "name": "vingle/flarum-share-social",
+    "name": "siamsquared/flarum-share-social",
     "description": "Include share social button.",
     "keywords": ["share", "facebook", "twitter", "google", "google plus", "social"],
     "type": "flarum-extension",
