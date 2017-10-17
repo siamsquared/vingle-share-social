@@ -1,5 +1,5 @@
 <?php 
-namespace Vingle\Share\Social;
+namespace Siamsquared\Share\Social;
 
 use Illuminate\Contracts\Events\Dispatcher;
 
