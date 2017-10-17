@@ -1,5 +1,5 @@
 <?php 
-namespace Vingle\Share\Social\Listeners;
+namespace Siamsquared\Share\Social\Listeners;
 
 use Flarum\Event\ConfigureClientView;
 use Illuminate\Contracts\Events\Dispatcher;
@@ -38,7 +38,7 @@ class AddClientAssets
                 __DIR__ . '/../../js/admin/dist/extension.js',
                 ]);
 
-            $event->addBootstrapper('vingle/share/social/main');
+            $event->addBootstrapper('siamsquared/share/social/main');
         }
         if($event->isForum()) {
             $event->addAssets([
@@ -46,7 +46,7 @@ class AddClientAssets
                 __DIR__ . '/../../less/forum/extension.less',
                 ]);
 
-            $event->addBootstrapper('vingle/share/social/main');
+            $event->addBootstrapper('siamsquared/share/social/main');
         }
     }
 
