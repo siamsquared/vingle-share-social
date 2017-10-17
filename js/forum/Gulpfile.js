@@ -2,6 +2,6 @@ var gulp = require('flarum-gulp');
 
 gulp({
   modules: {
-    'vingle/share/social': 'src/**/*.js'
+    'siamsquared/share/social': 'src/**/*.js'
   }
 });
